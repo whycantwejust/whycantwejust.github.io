@@ -1,5 +1,5 @@
 /* Default Demo Style */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+/* @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);*/
 
 /* HTML from Bootstrap */
 .clearfix {
@@ -55,9 +55,10 @@ body, html {
 
 /* Main Style */
 body {
-	font-family: 'Roboto',Arial,sans-serif;
+	/* font-family: 'Roboto',Arial,sans-serif;
 	color: #fff;
 	background: #f8d135;
+	*/
 }
 
 a, a:visited {
@@ -70,22 +71,22 @@ a:hover, a:active {
 }
 
 h1, h2, h3 {
-	font-family: 'Roboto',Arial,sans-serif;
+	/* font-family: 'Roboto',Arial,sans-serif; */
 }
 
 h1 { 
 	font-size: 2.5em; 
-	font-weight: 300; 
+	/* font-weight: 300; */
 }
 
 h2 { 
 	font-size: 1.5em; 
-	font-weight: 300; 
+	/* font-weight: 300; */
 }
 
 h3 { 
 	font-size: 1.2em; 
-	font-weight: 400; 
+	/* font-weight: 400; */
 }
 
 /* Header Style */
@@ -169,44 +170,6 @@ h3 {
 
 }
 
-/* Fusion Ads */
-.adswrap {
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
-	border: 1px none rgba(0, 0, 0, 0.1);
-	padding: 20px 15px;
-	position: fixed;
-	right: 15px;
-	z-index: 999999;
-	height: auto;
-	margin-top: 10px;
-}
-.adswrap .adsclose {
-	color: #777;
-	margin-bottom: 10px;
-	background: #ddd;
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 3px 8px;
-	font-size: 10px;
-	display: block;
-	cursor: pointer;
-	text-shadow: 0 1px 1px #fff;
-}
-#fusion_ad {
-	font-size: 12px;
-	width: 160px;
-	text-align: center;
-}
-#fusion_ad .fusionentire a {
-	display: block;
-	color: #444;
-	margin-bottom: 5px;
-}
-
-#fusion_ad .powered {
-	font-size: 10px;
-}
 
 /* Responsive */
 @media screen and (max-width: 25em) {
