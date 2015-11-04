@@ -2,9 +2,10 @@
 body, html {
       margin: 0;
       -webkit-font-smoothing: antialiased;
-      background: #f4eedf;
+      background: #F8F8F5;
       text-align: center;
       height: 100%;
+      font-family: 'Bree Serif', serif;
 }
 
 body .header{
