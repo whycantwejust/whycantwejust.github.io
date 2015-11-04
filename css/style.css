@@ -6,7 +6,8 @@ body, html {
       text-align: center;
       height: 100%;
       font-family: 'Bree Serif', serif;
-      font-size:80px;
+      font-size:50px;
+      font-weight:bold
       color:#000;
 }
 
